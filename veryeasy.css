@@ -1,0 +1,25 @@
+body {
+    width: 400px;
+    margin: 100px auto;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h1 {
+    text-align: center;
+    padding-top: 100px;
+} 
+
+div {
+    color: #FFFFFF;
+    width: 50px;
+    float: left;
+    height: 50px;
+}
+
+.one div:nth-child(odd) {
+    background-color:#000;
+}
+
+.two div:nth-child(even) {
+    background-color: #000;
+}
